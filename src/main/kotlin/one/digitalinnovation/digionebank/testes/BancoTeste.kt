@@ -7,4 +7,8 @@ fun main(){
 
     println(digiOneBank.name)
     println(digiOneBank.numero)
+
+    val banco2 = digiOneBank.copy(name = "Banco2")
+
+    println(banco2.info())
 }
