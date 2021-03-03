@@ -3,8 +3,8 @@ package one.digitalinnovation.digionebank.testes
 import one.digitalinnovation.digionebank.ClienteTipo
 
 fun main(){
-    ClienteTipo.values().forEach { elemento ->
-        println("${elemento.name} - ${elemento.descricao}")
+    ClienteTipo.values().forEach { element ->
+        println("${element.name} - ${element.descricao}")
     }
 
     ClienteTipo.values().forEach {
